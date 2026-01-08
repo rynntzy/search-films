@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* movie-search */
+.movie-search {
+  color: white;
+  width: 445px;
+  height: 48px;
+  font-size: 24px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  color: crimson;
+}
+
+/* class container */
+.movie-container {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 20px;
+}
+
+.movie-wrapper {
+  width: 470px;
+  background-color: crimson;
+}
+
+.movie-title {
+  font-weight: bold;
+  margin-top: 26px;
+  margin-bottom: 22px;
+}
+
+.movie-image {
+  height: 500px;
+}
+
+/* hover movie */
+.movie-image:hover {
+  cursor: pointer;
+}
+
+/* hover movie end */
+
+.movie-date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.movie-rate {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 11px;
+}
